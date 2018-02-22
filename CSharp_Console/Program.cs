@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CSharp_Console.CodeSamples;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -43,7 +44,12 @@ namespace CSharp_Console
 
         private void run()
         {
-
+            #region Quick sample how to call a another CS file method
+            // Make the to lines and press ctrl+k+c to out comment the code 
+            // and ctrl+k+u to make is back again 
+            HalloWorld hw = new HalloWorld();
+            hw.Say();
+            #endregion
         }
     }
 }
