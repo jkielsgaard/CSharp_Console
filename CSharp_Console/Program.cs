@@ -24,7 +24,7 @@ namespace CSharp_Console
          * method in it and make it easy to manageable
          * 
          * If the CodeSample file need a dll-file (See if the DLL file is in NuGet packages) or 
-         * others files as s CS-file from other developer put them into the "Files" folder and 
+         * others files as a CS-file from other developer put them into the "Files" folder and 
          * call them from there and if there is more then one file (eg. one CS-file and one dll-file) 
          * make a folder with a descriptive name to the 
          * 
@@ -47,9 +47,16 @@ namespace CSharp_Console
             #region Quick sample how to call a another CS file method
             // Make the to lines and press ctrl+k+c to out comment the code 
             // and ctrl+k+u to make is back again 
-            HalloWorld hw = new HalloWorld();
-            hw.Say();
+            //HalloWorld hw = new HalloWorld();
+            //hw.Say();
+
+            CustomReverseDataLoop c = new CustomReverseDataLoop();
+            c.run();
             #endregion
+
+            Console.WriteLine();
+            Console.Write("Test done - Press any key to exit....");
+            Console.ReadLine(); // Pause the console to user press a key
         }
     }
 }
