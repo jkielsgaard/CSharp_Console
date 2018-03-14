@@ -40,7 +40,12 @@ namespace CSharp_Console
          *                  |_|  |_|   |__/                            | \__/ |
          *
          */
-        static void Main(string[] args) { Program p = new Program(); p.run(); }
+        static void Main(string[] args) {
+            Console.BufferWidth = 150;
+            Console.WindowWidth = 151;
+            Program p = new Program();
+            p.run();
+        }
 
         private void run()
         {
@@ -50,9 +55,11 @@ namespace CSharp_Console
             //HalloWorld hw = new HalloWorld();
             //hw.Say();
 
-            CustomReverseDataLoop c = new CustomReverseDataLoop();
-            c.run();
             #endregion
+
+
+            ReadDataFromExcel r = new ReadDataFromExcel();
+            r.ReadData();
 
             Console.WriteLine();
             Console.Write("Test done - Press any key to exit....");
