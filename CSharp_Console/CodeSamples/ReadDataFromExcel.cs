@@ -36,7 +36,7 @@ namespace CSharp_Console.CodeSamples
             int rowCount = xlR.Rows.Count;
             int colCount = xlR.Columns.Count;
 
-            // Making a list to contain all the data in the excel file
+            // Making a list to contain all the data from the excel file
             List<Data_Used_list> dul = new List<Data_Used_list>();
 
             // Going / loop through every row there is, if there is headers or the data is 
@@ -56,10 +56,10 @@ namespace CSharp_Console.CodeSamples
                 // 0 as in coding
                 dul.Add(new Data_Used_list
                 {
-                    Phone_nr = xlR.Cells[i, 1].Value2.ToString(),
-                    Abo = xlR.Cells[i, 2].Value2.ToString(),
-                    GID = xlR.Cells[i, 3].Value2.ToString(),
-                    DataUsed = xlR.Cells[i, 4].Value2.ToString()
+                    Phone_nr = Convert.ToString(xlR.Cells[i, 1].Value2),
+                    Abo = Convert.ToString(xlR.Cells[i, 2].Value2),
+                    GID = Convert.ToString(xlR.Cells[i, 3].Value2),
+                    DataUsed = Convert.ToString(xlR.Cells[i, 4].Value2)
                 });
             }
 
