@@ -57,9 +57,8 @@ namespace CSharp_Console
 
             #endregion
 
-
-            ReadDataFromExcel r = new ReadDataFromExcel();
-            r.ReadData();
+            CombineTwoCustomList c = new CombineTwoCustomList();
+            c.run();
 
             Console.WriteLine();
             Console.Write("Test done - Press any key to exit....");
