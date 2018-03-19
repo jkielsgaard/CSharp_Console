@@ -49,6 +49,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CodeSamples\CombineTwoCustomList.cs" />
     <Compile Include="CodeSamples\CustomReverseDataLoop.cs" />
     <Compile Include="CodeSamples\HalloWorld.cs" />
     <Compile Include="CodeSamples\ReadDataFromExcel.cs" />
