@@ -6,13 +6,12 @@ using System.Threading.Tasks;
 
 namespace CSharp_Console.CodeSamples
 {
+    /// <summary>
+    /// A quick sample how to call a method from another CS file
+    /// </summary>
+
     public class HalloWorld
     {
-        /* Made by Jesper Ahasverusen Kielsgaard
-         * Date: 22-02-2018
-         * 
-         * A quick sample how to call a method from another CS file
-         */
         public void Say()
         {
             Console.WriteLine("Hallo World"); //JAK - Write Hallo World in the console 

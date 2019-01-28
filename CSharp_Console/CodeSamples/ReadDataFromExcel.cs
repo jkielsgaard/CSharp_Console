@@ -8,11 +8,9 @@ using Excel = Microsoft.Office.Interop.Excel; // Need to add Microsoft.Office.In
 
 namespace CSharp_Console.CodeSamples
 {
-    /* Made by Jesper Ahasverusen Kielsgaard
-     * Date: 14-03-2018
-     * 
-     * A quick way to show how to read data from a excel file and how to easy put it in custom made list
-     */
+    /// <summary>
+    /// A quick way to show how to read data from a excel file and how to easy put it in custom made list
+    /// </summary>
 
     // source code link - https://coderwall.com/p/app3ya/read-excel-file-in-c
 

@@ -8,11 +8,9 @@ namespace CSharp_Console.CodeSamples
 {
     public class CombineTwoCustomList
     {
-        /* Made by Jesper Ahasverusen Kielsgaard
-         * Date: 17-03-2018
-         * 
-         * To combine to list where the both have a ID to match.
-         */
+        /// <summary>
+        /// To combine to list where the both have a ID to match.
+        /// </summary>
 
         public void run()
         {

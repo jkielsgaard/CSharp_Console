@@ -10,8 +10,8 @@ namespace CSharp_Console
 {
     class Program
     {
-        /* MADE AND DOCUMENTED THE 22-02-2018 BY
-         * Jesper Ahasverusen Kielsgaard
+        /* MADE AND DOCUMENTED THE 05-01-2019
+         * BY Jesper Ahasverusen Kielsgaard
          * 
          * Main will start run method so static is not needed when testing og debugging new codes
          * Call the CodeSample file from the run method so this will be a clean code sample 
@@ -57,8 +57,8 @@ namespace CSharp_Console
 
             #endregion
 
-            CombineTwoCustomList c = new CombineTwoCustomList();
-            c.run();
+            WindowsEvents w = new WindowsEvents();
+            w.setEvent();
 
             Console.WriteLine();
             Console.Write("Test done - Press any key to exit....");

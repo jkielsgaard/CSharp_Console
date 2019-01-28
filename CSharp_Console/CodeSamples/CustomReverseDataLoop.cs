@@ -6,14 +6,11 @@ using System.Threading.Tasks;
 
 namespace CSharp_Console.CodeSamples
 {
-    class CustomReverseDataLoop
+    /// <summary>
+    /// Reverse ForLoop that put data from position 2 to 3, 1 to 2 etc. beforce putting new data into position 0
+    /// </summary>
+    public class CustomReverseDataLoop
     {
-        /* Made by Jesper Ahasverusen Kielsgaard
-         * Date: 02-03-2018
-         * 
-         * Reverse ForLoop that put data from position 2 to 3, 1 to 2 etc. beforce putting new data into position 0
-         */
-
         public void run()
         {
             // I make 4 empty array CustomInt objects and call it num
